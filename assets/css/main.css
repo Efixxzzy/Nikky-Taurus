@@ -17294,7 +17294,7 @@ div.r-who-we-outer {
 }
 
 .r-advantages-part .r-advantage-main-part {
-  background: #e6e6e6;
+  background: #f8f8f8;
   padding-bottom: 110px;
 }
 
@@ -17326,7 +17326,7 @@ div.r-who-we-outer {
 }
 
 .r-advantages-part .r-advantage-main-part .advantage-head::after {
-  content: "A";
+  content: "S";
   font-size: 200px;
   color: #93d4f7;
   font-weight: 700;
@@ -18132,7 +18132,7 @@ a:focus {
 .r-sec-head::after {
   content: "";
   font-size: 200px;
-  color: #f1ebd0;
+  color: #93d4f7;
   font-weight: 700;
   position: absolute;
   left: 0;
@@ -18305,7 +18305,7 @@ a:focus {
 .r-faq-header::after {
   content: "Q";
   font-size: 200px;
-  color: #f1edcf;
+  color: #93d4f7;
   font-weight: 700;
   position: absolute;
   left: -100px;
@@ -18578,7 +18578,7 @@ a:focus {
 }
 
 .r-best-vehicles {
-  background-color: #f8f4da;
+  background-color: #f8f8f8;
   padding: 0 0 130px;
 }
 
@@ -19090,7 +19090,7 @@ a:focus {
 }
 
 .r-driver-blog-dark .r-sec-head::after {
-  color: rgba(69, 71, 72, 0.88);
+  color: rgba(147, 212, 247, 0.8);
 }
 
 .r-driver-blog-dark.r-driver-blog-dark-theme-2 {
@@ -19111,7 +19111,7 @@ a:focus {
 }
 
 .r-driver-blog-light .r-sec-head::after {
-  color: #f1f1f1;
+  color: #93d4f7;
 }
 
 .r-car-option-tab {
@@ -19287,7 +19287,7 @@ a:focus {
 }
 
 .r-latest-news .r-sec-head::after {
-  color: rgba(0, 0, 0, 0.3);
+  color: #93d4f7;
 }
 
 .r-latest-news-list {
@@ -19375,7 +19375,7 @@ a:focus {
 }
 
 .r-latest-news-light .r-sec-head::after {
-  color: rgba(226, 226, 226, 0.3);
+  color: rgba(147, 212, 247, 0.8);
 }
 
 .r-latest-news-light .r-latest-news-content .r-date {
@@ -20762,7 +20762,7 @@ a:focus {
 }
 
 .r-quote-noafter .r-sec-head::after {
-  color: #f1f0f0;
+  color: #93d4f7;
 }
 
 #r-quote-carousel {
