@@ -1,0 +1,1 @@
+!function(){var i={fbPixelId:"924522661004161",domain:".usnews.com",appId:262,in_eu:!1,ping_activity:!0,snowplow_src:"//cdn.keywee.co/dist/sp-2.9.1.js"};window&&window.kwa&&window.kwa("loadConfig",i)}();
