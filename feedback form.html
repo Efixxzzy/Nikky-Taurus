@@ -7,7 +7,7 @@
 
   <!-- META-DATA -->
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -109,76 +109,18 @@
         </div>
         <div class="r-header-inner-banner">
           <div class="r-header-in-over">
-            <h1>Our <b>Contact</b> </h1>
+            <h1><b>FAQ.</b></h1>
             <div class="r-breadcrum">
               <ul>
-                <li><a href="#">HOME</a></li>
-                <li><span>CONTACT US</span></li>
+                <li><a href="#">FEEDBACK</a></li>
+                <li><span>RESPONSE FORM</span></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <section id="r-contact-part" class="r-contact-part">
-      <div class="container clearfix">
-        <div class="contact-head">
-          <span>OUR OFFICE</span>
-          <h2>Contact <b>Nikky Taurus</b> for<br> More Information. </h2>
-        </div>
 
-        <div class="row clearfix">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class=" r-contact-address">
-              <div class="head">Address on Map</div>
-              <div class="r-contact-img">
-                <iframe width="550" height="300" src="//maps.google.com/maps?q=Nikky+Taurus+Nig.+Ltd&amp;output=embed">
-                </iframe>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class=" r-contact-address">
-              <div class="head">Contact Details</div>
-              <div class="address address-cnt"><i class="fa fa-map-marker"></i><b>21A</b>, Bush Street,
-                Maryland
-                Lagos, Nigeria</div>
-              <div class="call address-cnt"><i class="fa fa-phone"></i><b>+234</b> (070) 4056 1255 / <b>+234</b> (080)
-                3314 7394</div>
-              <div class="mail address-cnt"><i class="fa fa-envelope"></i>info@nikkytaurus.com</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="r-get-in-touch">
-      <div class="r-get-in-touch">
-        <div class="container">
-          <div class="r-get-header">
-            <span>CONTACT US NOW</span>
-            <h2>Keep <b>In Touch.</b></h2>
-          </div>
-          <div class="r-get-form">
-            <div class="clearfix">
-              <div class="form-group"><input required="" name="userName" id="userName" type="text"
-                  placeholder="User name"></div>
-              <div class="form-group"><input required="" name="userEmail" id="userEmail" type="email"
-                  placeholder="Email Address"></div>
-            </div>
-            <div class="form-group"><input type="text" required="" name="subject" id="subject"
-                placeholder="Title Message"></div>
-            <div class="form-group">
-              <textarea placeholder="Message" name="content" required="" id="content"></textarea>
-            </div>
-            <div class="text-center">
-              <button onClick="sendContact();" class="btn btn-full">SEND MESSAGE NOW</button>
-            </div>
-            <div class="mt-4 text-uppercase text-white text-center" id="mail-status"></div>
-          </div>
-        </div>
-      </div>
-    </section>
     <footer>
       <div class="r-footer">
         <div class="container">
@@ -283,46 +225,7 @@
   <!-- JQUERY:: BOOTSTRAP.JS -->
   <script src="assets/js/tether.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
-
-  <!-- JQUERY:: CUSTOM -->
   <script src="assets/js/custom.js"></script>
-
-  <script>
-    function sendContact() {
-      var valid;
-      valid = validateContact();
-      if (valid) {
-        jQuery.ajax({
-          url: "contact_mail.php",
-          data: 'userName=' + $("#userName").val() + '&userEmail=' + $("#userEmail").val() + '&subject=' + $(
-            "#subject").val() + '&content=' + $(content).val(),
-          type: "POST",
-          success: function (data) {
-            $("#mail-status").html(data);
-          },
-          error: function () {}
-        });
-      }
-    }
-
-    function validateContact() {
-      var valid = true;
-      if (!$("#userName").val()) {
-        valid = false;
-      }
-      if (!$("#userEmail").val()) {
-        valid = false;
-      }
-      if (!$("#subject").val()) {
-        valid = false;
-      }
-      if (!$("#content").val()) {
-        valid = false;
-      }
-      return valid;
-    }
-  </script>
-
 </body>
 
 </html>
