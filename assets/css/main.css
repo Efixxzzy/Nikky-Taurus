@@ -21798,7 +21798,7 @@ a:focus {
   padding: 2px 5px;
 }
 
-.r-google-map-list>div#map-canvas {
+.r--list>div#map-canvas {
   min-height: 1050px;
   max-height: 1050px;
 }
