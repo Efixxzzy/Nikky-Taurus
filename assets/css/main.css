@@ -4437,7 +4437,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #014c8c;
+  color: #036699;
   text-decoration: underline;
 }
 
@@ -18303,7 +18303,7 @@ a:focus {
 }
 
 .r-faq-header::after {
-  content: "M";
+  content: "Q";
   font-size: 200px;
   color: #93d4f7;
   font-weight: 700;
