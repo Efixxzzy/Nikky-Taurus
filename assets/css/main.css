@@ -18728,21 +18728,21 @@ a:focus {
   transition: all 0.2s linear;
 }
 
-.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-active {
+.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-acitve {
   background-color: #fff;
 }
 
-.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-active::after {
+.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-acitve::after {
   opacity: 1;
 }
 
-.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-active span {
+.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-acitve span {
   background-color: #fff;
   color: #333;
   border: none;
 }
 
-.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-active span::before {
+.r-best-vehicles .r-best-leftbar .r-best-vehicle-types li.r-best-vehicle-acitve span::before {
   margin-right: 15px;
   width: 3px;
 }
