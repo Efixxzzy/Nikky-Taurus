@@ -25,7 +25,7 @@ body{
   display: flex; /*its better to use inline-flex*/
 }
 .email-box i{
-  background: #2f3542;
+  background: #036699;
   width: 40px;
   line-height: 40px;
 }
@@ -42,7 +42,7 @@ body{
   padding: 0 10px;
 }
 .btn{
-  background: #2f3542;
+  background: #036699;
   color: white;
   padding: 0 10px;
   text-transform: uppercase;
